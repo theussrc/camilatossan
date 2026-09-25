@@ -1,0 +1,1421 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Camila Tossan — Harmonização Facial &amp; Tricologia</title>
+  
+  <meta name="description" content="Harmonização facial e tricologia de alta precisão. Pós-graduanda em Tricologia pela Harvard Medical School. Resultados naturais, finos e elegantes.">
+  <meta property="og:title" content="Camila Tossan — Harmonização Facial &amp; Tricologia">
+  <meta property="og:description" content="Resultados finos, elegantes e personalizados que respeitam a sua anatomia.">
+  <meta property="og:image" content="camila_photo.jpg">
+  <meta property="og:type" content="website">
+
+  <!-- Tipografia de Alto Padrão: Fraunces (Serif Editorial) + Plus Jakarta Sans (UI moderna) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    /* ==========================================================
+       DESIGN SYSTEM — LUXURY AGENCY EDITION
+       ========================================================== */
+    :root {
+      --bg: #0C0A08;
+      --bg-surface: #14110E;
+      --bg-card: rgba(22, 18, 14, 0.75);
+      --bg-card-hover: rgba(28, 23, 18, 0.95);
+      
+      --gold-primary: #D4AF37;
+      --gold-light: #F7E7CE;
+      --gold-dark: #A67C1E;
+      --gold-gradient: linear-gradient(135deg, #FBE3B5 0%, #D4AF37 50%, #AA7C28 100%);
+      --gold-border: rgba(212, 175, 55, 0.22);
+      --gold-glow: rgba(212, 175, 55, 0.25);
+
+      --cream: #FAF6F0;
+      --taupe: #BDB2A4;
+      --muted: #80766B;
+      --line: rgba(212, 175, 55, 0.12);
+
+      --font-serif: 'Fraunces', Georgia, serif;
+      --font-sans: 'Plus Jakarta Sans', -apple-system, sans-serif;
+
+      --radius-sm: 8px;
+      --radius-md: 14px;
+      --radius-lg: 20px;
+      --radius-pill: 100px;
+
+      --transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      background-color: var(--bg);
+      color: var(--cream);
+      font-family: var(--font-sans);
+      -webkit-font-smoothing: antialiased;
+    }
+
+    body {
+      background-color: var(--bg);
+      color: var(--cream);
+      line-height: 1.65;
+      overflow-x: hidden;
+      position: relative;
+    }
+
+    /* Brilho Ambiente Suave de Agência */
+    .ambient-glow {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      pointer-events: none;
+      z-index: 0;
+      background: 
+        radial-gradient(circle at 80% 12%, rgba(212, 175, 55, 0.08) 0%, transparent 45%),
+        radial-gradient(circle at 15% 50%, rgba(166, 124, 30, 0.06) 0%, transparent 40%),
+        radial-gradient(circle at 85% 85%, rgba(212, 175, 55, 0.07) 0%, transparent 50%);
+    }
+
+    img {
+      max-width: 100%;
+      display: block;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+      transition: var(--transition);
+    }
+
+    .container {
+      max-width: 1120px;
+      margin: 0 auto;
+      padding-left: 24px;
+      padding-right: 24px;
+      position: relative;
+      z-index: 1;
+    }
+
+    section {
+      padding: 92px 0;
+      position: relative;
+      z-index: 1;
+    }
+
+    @media (max-width: 768px) {
+      section {
+        padding: 64px 0;
+      }
+    }
+
+    /* Tipografia de Agência */
+    .gold-text {
+      background: var(--gold-gradient);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      display: inline-block;
+    }
+
+    .kicker {
+      font-size: 0.76rem;
+      color: var(--gold-primary);
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .kicker-line {
+      width: 24px;
+      height: 1px;
+      background: var(--gold-primary);
+      display: inline-block;
+    }
+
+    .section-header {
+      max-width: 660px;
+      margin-bottom: 56px;
+    }
+
+    .section-header.center {
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .section-title {
+      font-family: var(--font-serif);
+      font-size: clamp(2rem, 3.6vw, 2.75rem);
+      line-height: 1.2;
+      font-weight: 400;
+      color: var(--cream);
+      letter-spacing: -0.01em;
+    }
+
+    .section-subtitle {
+      color: var(--taupe);
+      font-size: 1.02rem;
+      margin-top: 16px;
+      line-height: 1.7;
+    }
+
+    /* Botões Modernos */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      padding: 15px 28px;
+      border-radius: var(--radius-sm);
+      font-size: 0.92rem;
+      font-weight: 600;
+      cursor: pointer;
+      border: none;
+      transition: var(--transition);
+      white-space: nowrap;
+    }
+
+    .btn-gold {
+      background: var(--gold-gradient);
+      color: #120E0A;
+      box-shadow: 0 10px 24px rgba(212, 175, 55, 0.28);
+    }
+
+    .btn-gold:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 14px 32px rgba(212, 175, 55, 0.4);
+    }
+
+    .btn-gold:active {
+      transform: translateY(0);
+    }
+
+    .btn-ghost {
+      background: rgba(255, 255, 255, 0.03);
+      color: var(--cream);
+      border: 1px solid var(--gold-border);
+      backdrop-filter: blur(10px);
+    }
+
+    .btn-ghost:hover {
+      border-color: var(--gold-primary);
+      background: rgba(212, 175, 55, 0.1);
+      color: var(--gold-light);
+      transform: translateY(-2px);
+    }
+
+    /* ==========================================================
+       HEADER / NAVBAR
+       ========================================================== */
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(12, 10, 8, 0.88);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border-bottom: 1px solid var(--line);
+    }
+
+    .nav-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 76px;
+    }
+
+    .brand-link {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .brand-monogram {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      border: 1px solid var(--gold-primary);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--gold-primary);
+      background: rgba(212, 175, 55, 0.08);
+      font-family: var(--font-serif);
+      font-size: 1.15rem;
+      font-style: italic;
+    }
+
+    .brand-info h2 {
+      font-family: var(--font-serif);
+      font-size: 1.2rem;
+      font-weight: 500;
+      letter-spacing: -0.01em;
+      line-height: 1.1;
+      color: var(--cream);
+    }
+
+    .brand-info span {
+      font-size: 0.68rem;
+      color: var(--gold-primary);
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      font-weight: 600;
+      display: block;
+      margin-top: 2px;
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 32px;
+      list-style: none;
+    }
+
+    .nav-links a {
+      color: var(--taupe);
+      font-size: 0.88rem;
+      font-weight: 500;
+      position: relative;
+    }
+
+    .nav-links a:hover {
+      color: var(--cream);
+    }
+
+    .nav-cta-btn {
+      padding: 9px 20px;
+      font-size: 0.82rem;
+      border-radius: var(--radius-sm);
+    }
+
+    .menu-toggle {
+      display: none;
+      background: none;
+      border: none;
+      color: var(--cream);
+      font-size: 1.6rem;
+      cursor: pointer;
+    }
+
+    @media (max-width: 900px) {
+      .nav-links {
+        display: none;
+      }
+      .menu-toggle {
+        display: block;
+      }
+    }
+
+    /* Mobile Drawer */
+    .mobile-menu {
+      display: none;
+      position: absolute;
+      top: 76px;
+      left: 0;
+      width: 100%;
+      background: #14110E;
+      border-bottom: 1px solid var(--gold-border);
+      padding: 24px;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .mobile-menu.open {
+      display: flex;
+    }
+
+    .mobile-menu a {
+      color: var(--cream);
+      font-size: 1rem;
+      font-weight: 500;
+      padding: 6px 0;
+    }
+
+    /* ==========================================================
+       HERO SECTION
+       ========================================================== */
+    .hero {
+      padding-top: 60px;
+      padding-bottom: 72px;
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.15fr 0.85fr;
+      gap: 56px;
+      align-items: center;
+    }
+
+    @media (max-width: 960px) {
+      .hero-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+        text-align: center;
+      }
+      .hero-copy .kicker {
+        justify-content: center;
+      }
+      .hero-cta {
+        justify-content: center;
+      }
+    }
+
+    .hero-copy h1 {
+      font-family: var(--font-serif);
+      font-size: clamp(2.3rem, 4.2vw, 3.4rem);
+      line-height: 1.14;
+      font-weight: 400;
+      letter-spacing: -0.015em;
+      margin-bottom: 22px;
+    }
+
+    .hero-copy p.lede {
+      font-size: 1.06rem;
+      color: var(--taupe);
+      line-height: 1.75;
+      max-width: 520px;
+      margin-bottom: 34px;
+    }
+
+    .hero-cta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+
+    /* Moldura Editorial da Especialista */
+    .hero-photo-wrap {
+      position: relative;
+      display: flex;
+      justify-content: center;
+    }
+
+    .hero-photo-halo {
+      position: absolute;
+      width: 105%;
+      height: 105%;
+      background: radial-gradient(circle, rgba(212, 175, 55, 0.18) 0%, transparent 68%);
+      filter: blur(28px);
+      z-index: 0;
+      pointer-events: none;
+    }
+
+    .hero-photo-card {
+      position: relative;
+      z-index: 1;
+      width: 100%;
+      max-width: 440px;
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      border: 1px solid var(--gold-border);
+      box-shadow: 0 24px 56px rgba(0, 0, 0, 0.7);
+      background: linear-gradient(180deg, #1A1612 0%, #100C09 100%);
+    }
+
+    .hero-photo-card img {
+      width: 100%;
+      height: 100%;
+      aspect-ratio: 1 / 1.15;
+      object-fit: cover;
+      object-position: center top;
+      transition: transform 0.6s ease;
+    }
+
+    .hero-photo-card:hover img {
+      transform: scale(1.025);
+    }
+
+    .hero-badge {
+      position: absolute;
+      bottom: 20px;
+      left: 20px;
+      right: 20px;
+      background: rgba(16, 13, 10, 0.9);
+      border: 1px solid var(--gold-border);
+      backdrop-filter: blur(12px);
+      border-radius: var(--radius-sm);
+      padding: 12px 16px;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      z-index: 2;
+    }
+
+    .badge-icon {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      background: var(--gold-gradient);
+      color: #120E0A;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1rem;
+      font-weight: 700;
+      flex-shrink: 0;
+    }
+
+    .badge-details h4 {
+      font-family: var(--font-serif);
+      font-size: 0.95rem;
+      color: var(--cream);
+      font-weight: 500;
+    }
+
+    .badge-details p {
+      font-size: 0.74rem;
+      color: var(--taupe);
+      margin-top: 1px;
+    }
+
+    /* ==========================================================
+       TRUST STRIP — MÉTRICAS & CREDENCIAIS
+       ========================================================== */
+    .trust-strip {
+      border-top: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
+      background: rgba(20, 16, 12, 0.6);
+      backdrop-filter: blur(8px);
+    }
+
+    .trust-row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: center;
+      padding: 24px 20px;
+      gap: 24px;
+    }
+
+    .trust-item {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .trust-item b {
+      font-family: var(--font-serif);
+      font-size: 1.4rem;
+      color: var(--gold-light);
+      font-weight: 500;
+      letter-spacing: -0.01em;
+    }
+
+    .trust-item span {
+      font-size: 0.84rem;
+      color: var(--taupe);
+      line-height: 1.3;
+    }
+
+    /* ==========================================================
+       SEÇÃO SOBRE A PROFISSIONAL (EDITORIAL AGENCY LAYOUT)
+       ========================================================== */
+    .about-section {
+      background: linear-gradient(180deg, var(--bg) 0%, #100C09 100%);
+    }
+
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1.1fr 0.9fr;
+      gap: 56px;
+      align-items: center;
+    }
+
+    @media (max-width: 900px) {
+      .about-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+      }
+    }
+
+    .about-bio h2 {
+      font-family: var(--font-serif);
+      font-size: clamp(2rem, 3.4vw, 2.6rem);
+      line-height: 1.2;
+      color: var(--cream);
+      font-weight: 400;
+      margin-bottom: 8px;
+    }
+
+    .about-role {
+      font-family: var(--font-serif);
+      font-style: italic;
+      color: var(--gold-primary);
+      font-size: 1.05rem;
+      margin-bottom: 24px;
+    }
+
+    .about-bio p {
+      color: var(--taupe);
+      font-size: 0.98rem;
+      line-height: 1.8;
+      margin-bottom: 18px;
+    }
+
+    .about-bio p b {
+      color: var(--cream);
+      font-weight: 600;
+    }
+
+    .about-pillars-box {
+      border: 1px solid var(--gold-border);
+      background: linear-gradient(165deg, rgba(28, 22, 17, 0.8) 0%, rgba(18, 14, 11, 0.95) 100%);
+      border-radius: var(--radius-md);
+      padding: 36px 30px;
+      box-shadow: 0 16px 40px rgba(0, 0, 0, 0.5);
+    }
+
+    .about-pillars-box h3 {
+      font-family: var(--font-serif);
+      font-size: 1.25rem;
+      color: var(--cream);
+      font-weight: 500;
+      margin-bottom: 22px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .about-pillars-box h3::before {
+      content: "";
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: var(--gold-primary);
+      box-shadow: 0 0 10px var(--gold-primary);
+    }
+
+    .about-pillars-box ul {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+    }
+
+    .about-pillars-box li {
+      font-size: 0.9rem;
+      color: var(--taupe);
+      line-height: 1.6;
+      padding-left: 20px;
+      position: relative;
+    }
+
+    .about-pillars-box li::before {
+      content: "—";
+      position: absolute;
+      left: 0;
+      top: 0;
+      color: var(--gold-primary);
+      font-weight: 600;
+    }
+
+    .about-pillars-box li b {
+      color: var(--cream);
+      font-weight: 600;
+    }
+
+    /* ==========================================================
+       SEÇÃO BENEFÍCIOS / FILOSOFIA
+       ========================================================== */
+    .benefits-grid {
+      display: grid;
+      gap: 20px;
+    }
+
+    @media (min-width: 760px) {
+      .benefits-grid {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+
+    .benefit-card {
+      border: 1px solid var(--line);
+      background: var(--bg-card);
+      border-radius: var(--radius-md);
+      padding: 32px 26px;
+      transition: var(--transition);
+      backdrop-filter: blur(10px);
+    }
+
+    .benefit-card:hover {
+      border-color: var(--gold-border);
+      background: var(--bg-card-hover);
+      transform: translateY(-3px);
+    }
+
+    .benefit-icon {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      border: 1px solid var(--gold-border);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--gold-primary);
+      font-size: 1rem;
+      margin-bottom: 20px;
+      background: rgba(212, 175, 55, 0.08);
+    }
+
+    .benefit-card h3 {
+      font-family: var(--font-serif);
+      font-size: 1.18rem;
+      color: var(--cream);
+      font-weight: 500;
+      margin-bottom: 10px;
+    }
+
+    .benefit-card p {
+      font-size: 0.92rem;
+      color: var(--taupe);
+      line-height: 1.65;
+    }
+
+    /* ==========================================================
+       SEÇÃO PROCEDIMENTOS (SERVICES)
+       ========================================================== */
+    .services-grid {
+      display: grid;
+      gap: 24px;
+    }
+
+    @media (min-width: 760px) {
+      .services-grid {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+
+    .service-category {
+      border: 1px solid var(--gold-border);
+      border-radius: var(--radius-md);
+      padding: 36px 28px;
+      background: linear-gradient(165deg, #181410 0%, #110E0B 100%);
+      transition: var(--transition);
+      display: flex;
+      flex-direction: column;
+    }
+
+    .service-category:hover {
+      border-color: var(--gold-primary);
+      box-shadow: 0 16px 40px rgba(0, 0, 0, 0.5);
+      transform: translateY(-4px);
+    }
+
+    .service-tag {
+      font-size: 0.74rem;
+      color: var(--gold-primary);
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      margin-bottom: 12px;
+      display: block;
+    }
+
+    .service-category h3 {
+      font-family: var(--font-serif);
+      font-size: 1.35rem;
+      font-weight: 500;
+      color: var(--cream);
+      margin-bottom: 20px;
+      line-height: 1.25;
+    }
+
+    .service-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      flex-grow: 1;
+    }
+
+    .service-list li {
+      font-size: 0.9rem;
+      color: var(--taupe);
+      padding-left: 20px;
+      position: relative;
+      line-height: 1.5;
+    }
+
+    .service-list li::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 8px;
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+      background: var(--gold-primary);
+    }
+
+    /* ==========================================================
+       SEÇÃO PROCESSO / COMO FUNCIONA (TIMELINE ELEGANTE)
+       ========================================================== */
+    .process-grid {
+      display: grid;
+      gap: 20px;
+    }
+
+    @media (min-width: 760px) {
+      .process-grid {
+        grid-template-columns: repeat(4, 1fr);
+      }
+    }
+
+    .process-card {
+      border: 1px solid var(--line);
+      background: var(--bg-card);
+      border-radius: var(--radius-md);
+      padding: 30px 24px;
+      transition: var(--transition);
+    }
+
+    .process-card:hover {
+      border-color: var(--gold-border);
+      background: var(--bg-card-hover);
+    }
+
+    .process-number {
+      font-family: var(--font-serif);
+      font-size: 1.8rem;
+      color: var(--gold-primary);
+      line-height: 1;
+      margin-bottom: 16px;
+      display: block;
+    }
+
+    .process-card h3 {
+      font-family: var(--font-serif);
+      font-size: 1.1rem;
+      color: var(--cream);
+      font-weight: 500;
+      margin-bottom: 8px;
+    }
+
+    .process-card p {
+      font-size: 0.88rem;
+      color: var(--taupe);
+      line-height: 1.6;
+    }
+
+    /* ==========================================================
+       FAQ — ACCORDION MINIMALISTA
+       ========================================================== */
+    .faq-list {
+      max-width: 780px;
+      margin: 0 auto;
+      border-top: 1px solid var(--line);
+    }
+
+    .faq-item {
+      border-bottom: 1px solid var(--line);
+    }
+
+    .faq-trigger {
+      width: 100%;
+      padding: 22px 0;
+      background: none;
+      border: none;
+      color: var(--cream);
+      font-family: var(--font-serif);
+      font-size: 1.1rem;
+      font-weight: 500;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+      cursor: pointer;
+      text-align: left;
+      transition: color 0.2s ease;
+    }
+
+    .faq-trigger:hover {
+      color: var(--gold-light);
+    }
+
+    .faq-icon {
+      color: var(--gold-primary);
+      font-size: 1.3rem;
+      flex-shrink: 0;
+      transition: transform 0.3s ease;
+    }
+
+    .faq-item.open .faq-icon {
+      transform: rotate(45deg);
+    }
+
+    .faq-content {
+      display: none;
+      padding-bottom: 22px;
+      color: var(--taupe);
+      font-size: 0.94rem;
+      line-height: 1.7;
+    }
+
+    .faq-item.open .faq-content {
+      display: block;
+    }
+
+    /* ==========================================================
+       FINAL CTA & FOOTER
+       ========================================================== */
+    .final-cta {
+      border-top: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
+      background: linear-gradient(180deg, #14110E 0%, #0C0A08 100%);
+      text-align: center;
+    }
+
+    .final-cta h2 {
+      font-family: var(--font-serif);
+      font-size: clamp(2.2rem, 3.8vw, 3rem);
+      font-weight: 400;
+      color: var(--cream);
+      margin-bottom: 14px;
+    }
+
+    .final-cta p.lede {
+      max-width: 520px;
+      margin: 0 auto 36px;
+      color: var(--taupe);
+      font-size: 1.05rem;
+    }
+
+    footer {
+      padding: 60px 0 100px;
+      text-align: center;
+      border-top: 1px solid var(--line);
+      background: #090806;
+    }
+
+    .footer-logo {
+      font-family: var(--font-serif);
+      font-style: italic;
+      font-size: 1.25rem;
+      color: var(--cream);
+      margin-bottom: 6px;
+    }
+
+    .footer-sub {
+      color: var(--taupe);
+      font-size: 0.84rem;
+      margin-bottom: 16px;
+    }
+
+    .footer-ig {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      color: var(--gold-primary);
+      font-size: 0.86rem;
+      font-weight: 600;
+    }
+
+    .footer-ig:hover {
+      color: var(--gold-light);
+    }
+
+    .footer-disclaimer {
+      margin-top: 24px;
+      font-size: 0.76rem;
+      color: var(--muted);
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    /* ==========================================================
+       WHATSAPP FLUTUANTE
+       ========================================================== */
+    .floating-wa {
+      position: fixed;
+      right: 22px;
+      bottom: calc(22px + env(safe-area-inset-bottom, 0px));
+      z-index: 99;
+      width: 56px;
+      height: 56px;
+      border-radius: 50%;
+      background: var(--gold-gradient);
+      color: #120E0A;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 10px 24px rgba(0, 0, 0, 0.6), 0 0 20px rgba(212, 175, 55, 0.35);
+      transition: var(--transition);
+      text-decoration: none;
+    }
+
+    .floating-wa:hover {
+      transform: scale(1.08) translateY(-2px);
+      box-shadow: 0 14px 30px rgba(212, 175, 55, 0.45);
+    }
+
+    .floating-wa svg {
+      width: 26px;
+      height: 26px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Brilho Ambiente Fixo -->
+  <div class="ambient-glow"></div>
+
+  <!-- HEADER / NAVBAR -->
+  <header>
+    <div class="container nav-row">
+      <a href="#inicio" class="brand-link">
+        <div class="brand-monogram">C</div>
+        <div class="brand-info">
+          <h2>Camila Tossan</h2>
+          <span>Facial &amp; Tricologia</span>
+        </div>
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="#sobre">A Especialista</a></li>
+        <li><a href="#filosofia">Filosofia</a></li>
+        <li><a href="#procedimentos">Procedimentos</a></li>
+        <li><a href="#metodo">O Método</a></li>
+        <li><a href="#duvidas">Dúvidas</a></li>
+      </ul>
+
+      <a class="btn btn-gold nav-cta-btn" href="https://wa.me/5511999999999?text=Ol%C3%A1%2C%20Camila%21%20Gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o." target="_blank" rel="noopener">
+        Agendar Consulta
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir Menu">☰</button>
+    </div>
+
+    <!-- Mobile Drawer -->
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#sobre" onclick="toggleMenu()">A Especialista</a>
+      <a href="#filosofia" onclick="toggleMenu()">Filosofia</a>
+      <a href="#procedimentos" onclick="toggleMenu()">Procedimentos</a>
+      <a href="#metodo" onclick="toggleMenu()">O Método</a>
+      <a href="#duvidas" onclick="toggleMenu()">Dúvidas</a>
+      <a class="btn btn-gold" href="https://wa.me/5511999999999?text=Ol%C3%A1%2C%20Camila%21%20Gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o." target="_blank" rel="noopener">
+        Agendar no WhatsApp
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero" id="inicio">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <div class="kicker">
+            <span class="kicker-line"></span>
+            Pós-graduanda em Tricologia · Harvard Medical School
+          </div>
+
+          <h1>
+            A harmonia que o seu rosto pede. <br>
+            <span class="gold-text">A sutileza que você exige.</span>
+          </h1>
+
+          <p class="lede">
+            Procedimentos faciais e capilares orientados pelo rigor científico internacional e desenhados para valorizar a sua anatomia com elegância e naturalidade indetectável.
+          </p>
+
+          <div class="hero-cta">
+            <a class="btn btn-gold" href="https://wa.me/5511999999999?text=Ol%C3%A1%2C%20Camila%21%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o." target="_blank" rel="noopener">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 4H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2z"></path><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+              Agendar Avaliação no WhatsApp
+            </a>
+            <a class="btn btn-ghost" href="#procedimentos">
+              Ver Procedimentos
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-photo-wrap">
+          <div class="hero-photo-halo"></div>
+          <div class="hero-photo-card">
+            <img src="camila_photo.jpg" alt="Camila Tossan — Harmonização Facial e Tricologia">
+            <div class="hero-badge">
+              <div class="badge-icon">✓</div>
+              <div class="badge-details">
+                <h4>Camila Tossan</h4>
+                <p>Harmonização Facial &amp; Saúde Capilar</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TRUST STRIP -->
+    <div class="trust-strip">
+      <div class="container trust-row">
+        <div class="trust-item">
+          <b>Harvard</b>
+          <span>Pós-graduação em<br>Tricologia Clínica</span>
+        </div>
+        <div class="trust-item">
+          <b>100%</b>
+          <span>Planejamento<br>Autoral &amp; Individual</span>
+        </div>
+        <div class="trust-item">
+          <b>+6,8k</b>
+          <span>Pacientes &amp;<br>Seguidores</span>
+        </div>
+        <div class="trust-item">
+          <b>446+</b>
+          <span>Casos Clínicos<br>Documentados</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- SEÇÃO SOBRE A PROFISSIONAL -->
+    <section class="about-section" id="sobre">
+      <div class="container about-grid">
+        <div class="about-bio">
+          <div class="kicker">
+            <span class="kicker-line"></span>
+            A Especialista
+          </div>
+          <h2>Camila Tossan</h2>
+          <div class="about-role">Harmonização Facial &amp; Tricologia</div>
+          
+          <p>
+            Minha prática clínica nasce de uma convicção clara: <b>o procedimento estético mais sofisticado é aquele que ninguém nota que foi feito</b>. A meta não é criar um rosto novo, mas devolver o repouso, a firmeza e o contorno que o tempo suavizou.
+          </p>
+          <p>
+            Uno a sensibilidade da harmonização facial aos estudos avançados em Tricologia, área na qual sou pós-graduanda pela prestigiada <b>Harvard Medical School</b>. Esse embasamento científico orienta diagnósticos precisos tanto para a ancoragem muscular da face quanto para a regeneração da densidade capilar.
+          </p>
+          <p>
+            Em consultório, ofereço um atendimento reservado, sem pressa e pautado na escuta atenta. Cada decisão é explicada com transparência antes de qualquer aplicação.
+          </p>
+        </div>
+
+        <div class="about-pillars-box">
+          <h3>Pilares de Atuação</h3>
+          <ul>
+            <li>
+              <b>Rigor Harvard Medical School:</b> Protocolos capilares e faciais respaldados pelas pesquisas científicas mais recentes do cenário internacional.
+            </li>
+            <li>
+              <b>Preservação da Identidade:</b> Proporções calculadas milimetricamente para respeitar sua anatomia original e expressividade natural.
+            </li>
+            <li>
+              <b>Diagnóstico Integrado:</b> Exame detalhado da dinâmica da pele, musculatura e saúde do couro cabeludo antes de qualquer intervenção.
+            </li>
+            <li>
+              <b>Acompanhamento Dedicado:</b> Retornos programados para avaliação minuciosa da evolução e total tranquilidade pós-procedimento.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEÇÃO FILOSOFIA DE ATENDIMENTO -->
+    <section id="filosofia">
+      <div class="container">
+        <div class="section-header">
+          <div class="kicker">
+            <span class="kicker-line"></span>
+            Cuidado Personalizado
+          </div>
+          <h2 class="section-title">Beleza que respeita quem você é</h2>
+          <p class="section-subtitle">
+            Cada consulta parte da compreensão profunda da sua rotina, das suas queixas e da sua biologia — nunca de pacotes padronizados.
+          </p>
+        </div>
+
+        <div class="benefits-grid">
+          <div class="benefit-card">
+            <div class="benefit-icon">✦</div>
+            <h3>Técnica Autoral</h3>
+            <p>
+              Intervenções milimetricamente dosadas para o seu formato de rosto. Nada de volumes artificiais, lábios inflados ou traços congelados.
+            </p>
+          </div>
+
+          <div class="benefit-card">
+            <div class="benefit-icon">✦</div>
+            <h3>Ciência de Ponta</h3>
+            <p>
+              Atualização permanente nos maiores centros mundiais de dermatologia e tricologia, unindo segurança anestésica e técnicas minimamente invasivas.
+            </p>
+          </div>
+
+          <div class="benefit-card">
+            <div class="benefit-icon">✦</div>
+            <h3>Retorno &amp; Suporte</h3>
+            <p>
+              O cuidado não termina quando a sessão acaba. Mantemos contato próximo e agendamos retornos para assegurar o resultado planejado.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEÇÃO PROCEDIMENTOS -->
+    <section id="procedimentos" style="background: rgba(18, 14, 11, 0.5);">
+      <div class="container">
+        <div class="section-header center">
+          <div class="kicker" style="justify-content: center;">
+            <span class="kicker-line"></span>
+            Procedimentos
+            <span class="kicker-line"></span>
+          </div>
+          <h2 class="section-title">O que trato no consultório</h2>
+          <p class="section-subtitle">
+            Três frentes de atuação integradas com técnicas próprias para a face, a pele e a saúde capilar.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <!-- Card 1 -->
+          <div class="service-category">
+            <span class="service-tag">Face &amp; Estrutura</span>
+            <h3>Harmonização Facial</h3>
+            <ul class="service-list">
+              <li>Full Face em proporções áureas</li>
+              <li>Toxina Botulínica (preventiva e corretiva)</li>
+              <li>Preenchimento em pontos de sustentação</li>
+              <li>Bioestimuladores de colágeno (Sculptra / Radiesse)</li>
+              <li>Fios de sustentação e estímulo dérmico PDO</li>
+            </ul>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="service-category">
+            <span class="service-tag">Pele &amp; Viço</span>
+            <h3>Pele &amp; Skincare Médico</h3>
+            <ul class="service-list">
+              <li>Protocolo avançado para Melasma e manchas</li>
+              <li>Ultrassom Microfocado (Lifting não-cirúrgico)</li>
+              <li>Revitalização dérmica e fechamento de poros</li>
+              <li>Estímulo de viço e elasticidade profunda</li>
+              <li>Prescrição de rotina de home care personalizada</li>
+            </ul>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="service-category">
+            <span class="service-tag">Capilar &amp; Couro Cabeludo</span>
+            <h3>Tricologia Clínica</h3>
+            <ul class="service-list">
+              <li>Tricoscopia digital de alta resolução</li>
+              <li>Tratamento de queda capilar e eflúvio telógeno</li>
+              <li>Controle de afinamento e miniaturização folicular</li>
+              <li>Bioestimulação capilar e fatores de crescimento</li>
+              <li>Protocolos personalizados de fortalecimento</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEÇÃO O MÉTODO (4 PASSOS) -->
+    <section id="metodo">
+      <div class="container">
+        <div class="section-header">
+          <div class="kicker">
+            <span class="kicker-line"></span>
+            A Jornada
+          </div>
+          <h2 class="section-title">Do primeiro contato ao resultado</h2>
+          <p class="section-subtitle">
+            Um fluxo transparente e seguro, concebido para que você tenha clareza absoluta de cada etapa.
+          </p>
+        </div>
+
+        <div class="process-grid">
+          <div class="process-card">
+            <span class="process-number">01</span>
+            <h3>Avaliação Inicial</h3>
+            <p>Conversamos pelo WhatsApp para entender suas queixas e alinhar o melhor horário para seu atendimento.</p>
+          </div>
+
+          <div class="process-card">
+            <span class="process-number">02</span>
+            <h3>Diagnóstico 360°</h3>
+            <p>No consultório, examinamos detalhadamente a dinâmica muscular, a qualidade da pele e a saúde capilar.</p>
+          </div>
+
+          <div class="process-card">
+            <span class="process-number">03</span>
+            <h3>Plano Sob Medida</h3>
+            <p>Você recebe uma proposta clara com prazos, etapas recomendadas e produtos indicados antes de começar.</p>
+          </div>
+
+          <div class="process-card">
+            <span class="process-number">04</span>
+            <h3>Acompanhamento</h3>
+            <p>Retornos combinados para avaliar a evolução biológica, realizar pequenos refinamentos e garantir sua total satisfação.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEÇÃO DÚVIDAS FREQUENTES -->
+    <section id="duvidas" style="background: rgba(18, 14, 11, 0.4);">
+      <div class="container">
+        <div class="section-header center">
+          <div class="kicker" style="justify-content: center;">
+            <span class="kicker-line"></span>
+            Perguntas Frequentes
+            <span class="kicker-line"></span>
+          </div>
+          <h2 class="section-title">Esclareça suas dúvidas</h2>
+          <p class="section-subtitle">
+            Respostas transparentes para as perguntas mais comuns antes da sua consulta.
+          </p>
+        </div>
+
+        <div class="faq-list">
+          <div class="faq-item open">
+            <button class="faq-trigger" onclick="toggleFaq(this)">
+              <span>Como funciona a primeira avaliação?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-content">
+              A avaliação é uma consulta clínica completa. Ouvimos seus objetivos, realizamos o mapeamento facial e a tricoscopia capilar se necessário, e desenhamos um plano sob medida com total transparência de valores e etapas antes de qualquer procedimento.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-trigger" onclick="toggleFaq(this)">
+              <span>Os procedimentos de harmonização ficam artificiais?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-content">
+              Absolutamente não. A prioridade da Camila Tossan é a naturalidade e o respeito à sua anatomia original. Os produtos são aplicados nos planos anatômicos corretos para repor perdas estruturais, sem nunca inflar ou descaracterizar traços.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-trigger" onclick="toggleFaq(this)">
+              <span>Os procedimentos causam dor?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-content">
+              A imensa maioria dos procedimentos é muito bem tolerada. Utilizamos anestésicos tópicos de alta potência e substâncias modernas que já contêm anestésico associado (como lidocaína), garantindo conforto durante toda a sessão.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-trigger" onclick="toggleFaq(this)">
+              <span>Qual o diferencial da formação em Harvard na Tricologia?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-content">
+              A Harvard Medical School é a maior referência médica global. Essa pós-graduação garante acesso a diagnósticos fundamentados nas evidências científicas mais recentes, aplicando condutas comprovadas e seguras no combate à queda e afinamento capilar.
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-trigger" onclick="toggleFaq(this)">
+              <span>Como faço para agendar meu horário?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-content">
+              Basta clicar em qualquer botão de WhatsApp desta página. Nossa equipe responderá prontamente para verificar as datas e horários mais convenientes para você.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FINAL CTA -->
+    <section class="final-cta">
+      <div class="container">
+        <h2>Agende sua avaliação e dê o primeiro passo</h2>
+        <p class="lede">Atendimento individualizado e com hora marcada, em ambiente seguro e reservado.</p>
+        <div class="hero-cta" style="justify-content: center;">
+          <a class="btn btn-gold" href="https://wa.me/5511999999999?text=Ol%C3%A1%2C%20Camila%21%20Vim%20pelo%20site%20e%20quero%20agendar%20uma%20avalia%C3%A7%C3%A3o." target="_blank" rel="noopener">
+            Falar Diretamente no WhatsApp
+          </a>
+          <a class="btn btn-ghost" href="https://www.instagram.com/camilatossan_estetic" target="_blank" rel="noopener">
+            Conhecer o Instagram
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="footer-logo">Camila Tossan</div>
+      <div class="footer-sub">Harmonização Facial &amp; Tricologia Clínica</div>
+      <a class="footer-ig" href="https://www.instagram.com/camilatossan_estetic" target="_blank" rel="noopener">
+        @camilatossan_estetic
+      </a>
+      <div class="footer-disclaimer">
+        © 2026 Camila Tossan. Todos os direitos reservados. Atendimento médico/estético em conformidade com as diretrizes éticas vigentes.
+      </div>
+    </div>
+  </footer>
+
+  <!-- WHATSAPP FLUTUANTE -->
+  <a class="floating-wa" href="https://wa.me/5511999999999?text=Ol%C3%A1%2C%20Camila%21%20Gostaria%20de%20tirar%20uma%20d%C3%BAvida%20sobre%20os%20procedimentos." target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor">
+      <path d="M12 2C6.48 2 2 6.48 2 12c0 1.85.5 3.58 1.35 5.06L2 22l5.1-1.33A9.94 9.94 0 0 0 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2Zm5.2 14.2c-.22.62-1.28 1.18-1.77 1.24-.45.06-.98.09-1.58-.1-.36-.11-.83-.27-1.43-.53-2.52-1.09-4.16-3.62-4.29-3.79-.13-.17-1.03-1.37-1.03-2.61 0-1.24.65-1.85.88-2.1.22-.25.5-.31.66-.31.17 0 .33 0 .48.01.15.01.36-.06.56.43.22.53.73 1.83.8 1.96.06.13.1.28.02.45-.09.17-.13.28-.26.43-.13.15-.28.34-.4.46-.13.13-.27.27-.12.53.15.26.67 1.11 1.44 1.8.99.88 1.82 1.16 2.08 1.29.26.13.41.11.57-.07.15-.17.63-.73.8-.98.17-.26.34-.21.56-.13.22.09 1.42.67 1.66.79.24.11.4.17.46.27.06.11.06.6-.16 1.22Z"/>
+    </svg>
+  </a>
+
+  <!-- SCRIPT NATIVO SEM DEPENDÊNCIAS -->
+  <script>
+    // Configuração do WhatsApp
+    const WHATSAPP_NUMBER = "5511999999999";
+
+    if (WHATSAPP_NUMBER !== "5511999999999") {
+      document.querySelectorAll('a[href*="wa.me/5511999999999"]').forEach(function(link) {
+        link.href = link.href.replace('5511999999999', WHATSAPP_NUMBER);
+      });
+    }
+
+    // Toggle Menu Mobile
+    const menuToggle = document.getElementById('menuToggle');
+    const mobileMenu = document.getElementById('mobileMenu');
+
+    if (menuToggle && mobileMenu) {
+      menuToggle.addEventListener('click', function() {
+        mobileMenu.classList.toggle('open');
+        menuToggle.textContent = mobileMenu.classList.contains('open') ? '✕' : '☰';
+      });
+    }
+
+    function toggleMenu() {
+      if (mobileMenu && menuToggle) {
+        mobileMenu.classList.remove('open');
+        menuToggle.textContent = '☰';
+      }
+    }
+
+    // Toggle FAQ Accordion
+    function toggleFaq(btn) {
+      const item = btn.closest('.faq-item');
+      const wasOpen = item.classList.contains('open');
+      
+      // Fecha os outros
+      document.querySelectorAll('.faq-item').forEach(function(el) {
+        el.classList.remove('open');
+      });
+
+      // Abre o atual se não estava aberto
+      if (!wasOpen) {
+        item.classList.add('open');
+      }
+    }
+  </script>
+</body>
+</html>
